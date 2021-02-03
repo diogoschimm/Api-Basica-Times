@@ -36,7 +36,7 @@ create table Jogo (
  insert into Time (nomeTime) values ('Ypiranga-RS');
 ```
 
-Altere a String de Conexão dentro do arquivo StringConexao.cs coloque o nome do seu computador e o nome da instância do seu SQL Server.
+Altere a String de Conexão dentro do arquivo StringConexao.cs coloque o nome do seu computador e o nome da instância do seu SQL Server.  
 A String de conexão usa o modelo de autenticação integrado do Windows, se o seu SQL Server utilizar apenas Login e Senha do Banco você deve alterar a String de Conexão, trocando a opção "Integrated Security=SSPI" para "User Id=SeuUser;Password=SuaPassword;", onde o SeuUser e SuaPassword devem ser o usuário e senha respectivamente.
 
 ```c#
@@ -49,6 +49,26 @@ namespace ApiCrud
     }
 }
 ```
+
+## EndPoints
+  
+A API possui dois Endpoints principais que aceitam os métodos HTTP GET, PUT, POST e DELETE sendo eles respectivamente
+  
+/api/time  
+  
+/api/jogo  
+  
+
+## Testando a API
+
+Utilize o Postman ou o Insominia para testar os métodos de GET, POST, PUT e DELETE dos Controllers de Jogo e Time.
+
+Postman  
+https://www.postman.com/  
+
+Insominia  
+https://insomnia.rest/  
+
 
 
 
