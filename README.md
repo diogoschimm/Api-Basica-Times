@@ -1,4 +1,4 @@
-# Api Basica de Times e Jogos
+# Api básica de Times e Jogos
 Projeto de exemplo para cadastrar jogos e times. Esse projeto é usado para treinamento.
 
 ## Setup
@@ -66,7 +66,7 @@ Utilize o Postman ou o Insominia para testar os métodos de GET, POST, PUT e DEL
 Postman  
 https://www.postman.com/  
 
-Insominia  
+Insomnia  
 https://insomnia.rest/  
 
 
